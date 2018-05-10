@@ -16,3 +16,12 @@
 
 - 引用 gensim 當中 corpora 、 models、 similarities 模組，分別做語料庫建立、主題模型、與相似度比較。
 
+
+## Build
+
+```
+virtualenv venv
+. venv/bin/activate
+pip install -r requirements.txt
+python main.py
+```
